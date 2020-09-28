@@ -15,4 +15,8 @@ public class Main {
         primeSieve.printPrimes();
         System.out.println(primeSieve.isPrime(881));
     }
+    
+    public static void summandAlgorithm() {
+        
+    }
 }
