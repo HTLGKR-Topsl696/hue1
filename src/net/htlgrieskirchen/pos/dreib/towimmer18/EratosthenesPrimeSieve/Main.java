@@ -29,11 +29,12 @@ public class Main {
                 primes.add(k);
             }
         }
-        for (int i = 4; i <= o; i += 2) {
+        number_loop: for (int i = 4; i <= o; i += 2) {
             for (int prime1 : primes) {
                 for (int prime2 : primes) {
                     if (prime1 + prime2 == i) {
                         System.out.println(i + " summe: " + prime1 + " + " + prime2);
+                        continue number_loop;
                     }
                 }
             }
