@@ -5,6 +5,8 @@
  */
 package net.htlgrieskirchen.pos.dreib.towimmer18.EratosthenesPrimeSieve;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Tobias
@@ -13,13 +15,17 @@ public class Main {
     public static void main(String[] args) {
         PrimeSieve primeSieve = new EratosthenesPrimeSieve(100);
         primeSieve.printPrimes();
-        System.out.println(primeSieve.isPrime(881));
+        System.out.println(primeSieve.isPrime(7));
         summandAlgorithm(10);
     }
     
     public static void summandAlgorithm(int o) {
+        PrimeSieve primeSieve = new EratosthenesPrimeSieve(100);
         for (int i = 4; i <= o; i += 2) {
-            
+            ArrayList<Integer> primes = new ArrayList<Integer>();
+            for (int k = 1; k < o; k++) {
+                
+            }
         }
     }
 }
