@@ -14,6 +14,7 @@ public class Main {
         PrimeSieve primeSieve = new EratosthenesPrimeSieve(100);
         primeSieve.printPrimes();
         System.out.println(primeSieve.isPrime(881));
+        summandAlgorithm(10);
     }
     
     public static void summandAlgorithm(int o) {
