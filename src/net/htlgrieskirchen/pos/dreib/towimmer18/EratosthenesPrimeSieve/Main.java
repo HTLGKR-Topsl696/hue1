@@ -17,6 +17,8 @@ public class Main {
     }
     
     public static void summandAlgorithm(int o) {
-        
+        for (int i = 4; i <= o; i += 2) {
+            
+        }
     }
 }
