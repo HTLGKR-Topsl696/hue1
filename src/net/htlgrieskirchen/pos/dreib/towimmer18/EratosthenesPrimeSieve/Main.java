@@ -16,7 +16,7 @@ public class Main {
         System.out.println(primeSieve.isPrime(881));
     }
     
-    public static void summandAlgorithm() {
+    public static void summandAlgorithm(int o) {
         
     }
 }
